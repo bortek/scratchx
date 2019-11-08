@@ -342,7 +342,7 @@ function Marty(IP, name){
     this.socket.send(new Uint8Array([0x02, 0x02, 0x00, 0x15, enabled]));
   }
 
-  this.motor_protection = function(enabled){
+  this.motor_protection = function(disabled){
     if (enabled === undefined || (enabled != true && enabled != false)){enabled = true;}
     this.socket.send(new Uint8Array([0x02, 0x02, 0x00, 0x16, enabled]));
   }
