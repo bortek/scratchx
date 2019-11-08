@@ -17,7 +17,7 @@ function loadScript(url, callback)
 
 var ext = {};
 //loadScript("/scratch_extensions/martyScratch.js?v=20190103", registerExtension);
-loadScript("https://robotical.github.io/scratchx/scratch_extensions/martyScratch.js?v=20190103", registerExtension);
+loadScript("https://bortek.github.io/scratchx/scratch_extensions/martyScratch.js?v=20190103", registerExtension);
 
 
 
