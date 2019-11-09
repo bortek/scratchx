@@ -220,7 +220,8 @@ function select_marty(ip, name){
     }
     marty = new Marty(ip, name);
     // Start polling motors at 1Hz
-    marty.motorWatchdog(1000);
+    // If I comment out this hope motor check will be disabled.
+    //marty.motorWatchdog(1000);
     // Add callback to handle a disable event
     marty.addMotorDisabledCallback(_handle_mtr_disab);
 }
