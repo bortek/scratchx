@@ -344,7 +344,7 @@ function Marty(IP, name){
 
   this.motor_protection = function(enabled){
     if (enabled === undefined || (enabled != true && enabled != false)){enabled = true;} else {enabled = False;}
-    this.socket.send(new Uint8Array([0x02, 0x02, 0x00, 0x16, enabled]));
+    this.socket.send(new Uint8Array([0x02, 0x02, 0x00, 0x16, false]));
   }
 
   this.low_battery_cutoff = function(enabled){
