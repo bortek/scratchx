@@ -94,7 +94,8 @@ var selectorTitle = 'Marty Scanner';
 martylist = [];
 martyNames = [];
 var marty = null;
-var scanComplete = false;
+//disable scanning by setting scanComplete to true
+var scanComplete = true;
 var checkTimeout;
 var scanResults = 0;
 var ext2 = {};
