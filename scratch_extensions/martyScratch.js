@@ -263,6 +263,7 @@ function select_marty(ip, name){
     ext.hello = function(callback) {
         marty.enable_motors();
         marty.hello(1);
+        marty.motor_protection(false)
         if (ext.blocking_mode === true){
             setTimeout(callback, 2000);
         } else {
