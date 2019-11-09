@@ -92,7 +92,7 @@ if (RTCPeerConnection) (function () {
 
 var selectorTitle = 'Marty Scanner';
 martylist = ['192.168.0.242'];
-martyNames = ['92.168.0.242'];
+martyNames = ['192.168.0.242'];
 var marty = null;
 //disable scanning by setting scanComplete to true
 var scanComplete = true;
