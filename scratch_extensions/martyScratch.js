@@ -19,7 +19,7 @@ function loadScript(url, callback)
     head.appendChild(script);
 }
 
-loadScript("https://bortek.github.io/scratchx/js/marty.js?v=20180910");
+loadScript("https://bortek.github.io/scratchx/js/marty.js");
 //loadScript("/js/marty.js?v=20180910");
 loadScript("https://bortek.github.io/scratchx/js/martyScan.js", function(){setTimeout(scanForMartys,1000);});
 //loadScript("/js/martyScan.js", function(){setTimeout(scanForMartys,1000);});
